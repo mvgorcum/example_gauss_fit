@@ -24,6 +24,13 @@ yeval=gauss_fit.gauss_eval(xeval,parameters)
 The `parameters` object is now a dictionary with the best-fit parameters.
 The `xeval` and `yeval` contain the fitted gaussian from the data.
 
+## Unit test
+To run the unit test ensure `pytest` is installed and then run from the root folder:
+
+```
+python -m pytest
+```
+
 ## Dependencies
 
 This package depends on:
