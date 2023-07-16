@@ -39,7 +39,7 @@ def gauss_fit(x: ArrayLike, y: ArrayLike) -> dict:
     return {'sigma': fit[0], 'mu': fit[1]}
 
 
-def gauss_eval(x: list, fit: dict) -> list:
+def gauss_eval(x: ArrayLike, fit: dict) -> ArrayLike:
     """
     Returns a values from a gaussian based on sigma and mu
     as supplied in 'fit' for the corresponding x values
